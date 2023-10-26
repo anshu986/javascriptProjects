@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+    --color:#576CBC
+}
+body{
+    background-color:var(--color);
+}
+.container{
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 300px;
+    width: 500px;
+   background-color: white;
+   border-radius: 12px;
+   padding-top: 20px;
+   padding-inline: 12px;
+   
+}
+#thought{
+    padding-block: 10px;
+    font-family: 'Noticia Text', serif;
+}
+#by{
+    text-align: right;
+    margin-bottom: 10px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px
+}
+hr{
+    margin-block-start: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer i{
+    margin-top: 20px;
+    color:var(--color);
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.fa-quote-left{
+    
+    text-align: left;
+    padding-block-start: 20px;
+}
+.fa-quote-right{
+    text-align: right;
+    padding-block-end: 20px;
+}
+i{
+    margin-inline-start:15px ;
+    
+}
+.btn{
+    background-color: var(--color);
+   
+    padding-inline: 12px;
+    padding-block: 10px;
+    border-radius: 18px;
+    color: white;
+    margin-inline-end: 10px;
+    border-style: none;
+    margin-top: 10px;
+    
+}
+h2{
+    font-family: 'Anton', sans-serif;
+
+}
